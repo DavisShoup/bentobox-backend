@@ -7,7 +7,7 @@ const { GraphQLObjectType, GraphQLID, GraphQLString, GraphQLSchema, GraphQLList,
 
 const RecipeType = new GraphQLObjectType({
     name: 'Recipe',
-    fields: () => ({ 
+    fields: () => ({
         id: { type: GraphQLID },
         name: { type: GraphQLString },
         steps: { type: GraphQLString },
